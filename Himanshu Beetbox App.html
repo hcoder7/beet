@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		fieldset{
+			background:linear-gradient(to right,#fc039d,#2003fc,#03fcc2,#ecfc03);
+		}
+		#btn1,#btn2,#btn3,#btn4{
+			background-color: black;
+			color: black;
+			width: 20vw;
+			height: 40vh;
+			border-radius: 100px;
+			outline: none;
+		}
+		#btn1:hover,#btn2:hover,#btn3:hover,#btn4:hover{
+			width: 22vw;
+			height: 42vh;
+			border-radius: 100px;
+			background: linear-gradient(#fc0335,#f4fc03);
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+	<audio id="audio22">
+		<source src="Voice 001_sd.m4a" type="">
+	</audio>
+	<audio id="audio23">
+		<source src="Voice 003_sd.m4a" type="">
+	</audio>
+	<audio id="audio24">
+		<source src="Voice 004_sd.m4a" type="">
+	</audio>
+	<audio id="audio25">
+		<source src="Voice 005_sd.m4a" type="">
+	</audio>
+	<br><br><br><br><br><br><br><br>
+     <fieldset>
+	<center>
+    &nbsp<button id="btn1" onclick="bell()"></button>&nbsp&nbsp
+    <button id="btn2" onclick="gell()"></button>&nbsp&nbsp
+    <button id="btn3" onclick="nell()"></button>&nbsp&nbsp
+    <button id="btn4" onclick="sell()"></button>&nbsp&nbsp
+    </center>
+    </fieldset>
+
+    <script type="text/javascript">
+    	var audio= document.getElementById('audio22');
+    	function bell(){
+    		audio.play();
+    	}  
+        
+    </script>
+
+<script type="text/javascript">
+	var audio2= document.getElementById('audio23');
+    	function gell(){
+    		audio2.play();
+    	}
+ 
+</script>
+<script type="text/javascript">
+	var audio3= document.getElementById('audio24');
+    	function nell(){
+    		audio3.play();
+    	}
+       
+</script>
+<script type="text/javascript">
+	var audio4= document.getElementById('audio25');
+    	function sell(){
+    		audio4.play();
+    	}
+
+</script>
+</body>
+</html>
